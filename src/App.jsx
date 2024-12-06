@@ -284,7 +284,7 @@ function App() {
         </div>
         <div className="flex space-x-4">
           <a 
-            href="https://vennelabittla.github.io/FilmBuzz/" 
+            href="http://vennela.freewebhostmost.com/"
             className="inline-block bg-teal-600 text-white px-6 py-3 rounded-lg hover:bg-teal-700 transition-colors"
           >
             View Project
