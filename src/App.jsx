@@ -81,9 +81,22 @@ function App() {
             <h1 className="text-5xl font-bold text-purple-600">Hi, I'm Vennela Bittla</h1>
             <p className="text-2xl">A passionate Web Developer creating innovative digital solutions</p>
             <div className="flex space-x-4">
-              <Linkedin className="w-6 h-6 hover:text-purple-600 transition-colors cursor-pointer" />
-              <Mail className="w-6 h-6 hover:text-purple-600 transition-colors cursor-pointer" />
+                <a
+                  href="https://www.linkedin.com/in/vennela-bittla-667bb4336/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-6 h-6 hover:text-purple-600 transition-colors cursor-pointer"
+                >
+                  <Linkedin />
+                </a>
+                <a
+                  href="mailto:vennela.bittla@gmail.com"
+                  className="w-6 h-6 hover:text-purple-600 transition-colors cursor-pointer"
+                >
+                  <Mail />
+                </a>
             </div>
+
             <button 
               className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
             >
